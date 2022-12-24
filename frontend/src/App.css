@@ -1,124 +1,51 @@
-body{
-  height: 1000px;
-  background-color: coral;
-/* background-image: url('123.webp'); */
-background-size: cover;
+body {
+  height: 1500px;
+  background-color:  rgb(22 0 255);
+  background-size: cover;
 }
 
-.App {
-  text-align: center;
+
+#bodytext {
+  font-family: " Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgb(252, 250, 249);
+  margin-top: 10px;
+  margin-left: 160px;
+  margin-right: 40px;
+  width: 900px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.form{
-  background: linear-gradient(red,yellow);
-
-border: 2px solid red;
-border-radius: 10px;
-position: relative;
-top: 100px;
-left: 120px;
-width: 900px;
-height: 380px;
-
-}
-.img{
-
-}
-.box{
-  position:relative;
-  left: 320px;
-  width: 600px;
-}
-
-.inp{
-  
-  width: 300px;
-  height: 28px;
-  border: 1px solid navy;
-  border-radius: 5px;
-  font-size: 17px;
-  font-weight: bold;
-  text-align: left;
-  font-family:  'Times New Roman', Times, serif;
-  color:navy;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.text{
-  font-weight: 500;
-  font-size: 16px;
-}
-
-#heading{
-  color: white;
-  font-weight: 600;
+#cotation {
+  position: relative;
+  left: 300px;
+  bottom: 20px;
   font-size: 30px;
-  text-decoration: underline;
+  color: yellow;
 }
 
-.btn{
-  margin-left: 50px;
-  width: 150px;
-  height:30px;
-  background-color: navy;
-  color: white;
-  border: 1px solid white;
-  border-radius: 8px;
-  font-size: 15px;
-  cursor: pointer;
-}
-.btn:hover{
-  background-color: rgb(182, 245, 148);
-  color: navy;
-  border: 1px solid navy;}
-
-#domain{
-  margin-left: 30px;
-  border: 1px solid crimson;
-  width: 150px;
-  height: 30px;
-  border-radius: 8px;
-  background-color:rgb(62, 220, 241) ;
+#comname {
+  font-size: 40px;
 }
 
-.option{
-  font-size: 20px;
-  color: crimson;
-  font-weight: 400;
+
+
+#author{
+  position: relative;
+bottom: 40px;
+  left: 800px;
+  font-weight: bold;
+}
+
+.why{
+  position: relative;
+  top: 150px;
+  left: 170px;
+  width: 900px;
+}
+
+.admin{
+  position: relative;
+  top: 200px;
+  left: 100px;
 }

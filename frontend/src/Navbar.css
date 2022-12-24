@@ -1,0 +1,37 @@
+.ele{
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: relative;
+    /* top: 25px; */
+    left: 100px;   
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.ele:hover{
+
+    color: red;
+
+}
+#logo{
+    background-image: url('logo.png');
+    background-size: cover;
+    width: 200px;
+    height: 72px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 5px;
+    
+  }
+
+.nav{
+    background-color:  #e1f4f2;
+    height: 75px;
+    width: 1263px;
+}
+

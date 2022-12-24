@@ -1,0 +1,53 @@
+.loginform{
+    position: relative;
+    top: 40px;
+    left: 100px;
+}
+
+.btn{
+    width: 4cm;
+    height: 0.8cm;
+    background-color: white;
+    color: red;
+    border: 1px solid red ;
+    border-radius: 6px ;
+    position: relative;
+    left: 15cm;
+    top: 0.6cm;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+
+}
+
+#welcome{
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+    color: rgb(15, 250, 90);
+}
+
+#xyz{
+    position: relative;
+    top: 100px;
+    left:6cm;
+    background-color: white;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 5px;
+
+  }
+
+  #mainrow{
+    background-color: red;
+    color: white;
+  }
