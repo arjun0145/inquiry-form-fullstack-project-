@@ -1,15 +1,14 @@
 body {
   height: 1500px;
-  background-color:  rgb(22 0 255);
+  background-color: rgb(184, 254, 247);
   background-size: cover;
 }
-
 
 #bodytext {
   font-family: " Arial Narrow", Arial, sans-serif;
   font-size: 18px;
   font-weight: 100;
-  color: rgb(252, 250, 249);
+  color: rgb(5, 104, 244);
   margin-top: 10px;
   margin-left: 160px;
   margin-right: 40px;
@@ -21,30 +20,29 @@ body {
   left: 300px;
   bottom: 20px;
   font-size: 30px;
-  color: yellow;
+  color: rgb(248, 23, 210);
 }
 
 #comname {
   font-size: 40px;
 }
 
-
-
-#author{
+#author {
   position: relative;
-bottom: 40px;
+  bottom: 15px;
   left: 800px;
   font-weight: bold;
+  font-size: 20px;
 }
 
-.why{
+.why {
   position: relative;
   top: 150px;
   left: 170px;
   width: 900px;
 }
 
-.admin{
+.admin {
   position: relative;
   top: 200px;
   left: 100px;

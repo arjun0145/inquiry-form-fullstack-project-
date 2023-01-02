@@ -14,7 +14,7 @@ app.use(cors(corsOptions))
 app.use(express.json()) 
 app.use(inquiryRouter)
 configureDb()
-app.listen(9200,()=>{
+app.listen(9600,()=>{
     console.log("server is running on port 9200")
 ;
 })

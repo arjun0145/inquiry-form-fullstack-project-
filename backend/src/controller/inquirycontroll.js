@@ -20,6 +20,7 @@ export async function Fetchdata(req, res) {
     const user = await UserSchema.find();
     res.status(StatusCodes.OK).json(user);
   } catch (error) {
+    console.log(error)
     res
       .status(StatusCodes.INTERNAL_SERVER_ERROR)
       .json({ message: "data not saved" });

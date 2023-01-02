@@ -3,13 +3,13 @@
     padding-left: 40px;
     padding-right: 40px;
     position: relative;
-    /* top: 25px; */
+    top: 15px;
     left: 100px;   
     cursor: pointer;
     font-size: 20px;
     font-weight: 500;
-    text-decoration: none;
-    color: black;
+    text-decoration: initial;
+    color: rgb(254, 1, 1);
 }
 
 .ele:hover{
@@ -30,8 +30,8 @@
   }
 
 .nav{
-    background-color:  #e1f4f2;
+    background-color:  #14f22a;
     height: 75px;
-    width: 1263px;
+    width: 1579px;
 }
 

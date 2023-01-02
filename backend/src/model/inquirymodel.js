@@ -17,7 +17,7 @@ const Schema = mongoose.Schema({
   batch: {
     type: String,
     required: true,
-  },
+  }
 });
 
 export const UserSchema = mongoose.model("User", Schema);
