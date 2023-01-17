@@ -1,4 +1,4 @@
-.mark {
+/* .mark {
   background-color: red;
   border: 1px solid white;
   border-radius: 6px;
@@ -73,8 +73,8 @@
   margin-left: 40px;
   position: relative;
   /* top: 50px; */
-}
-.btnx {
+
+/* .btnx {
   margin-left: 50px;
   width: 150px;
   height: 30px;
@@ -101,11 +101,11 @@
   width: 120px;
   height: 30px;
   border-radius: 8px;
-  background-color: rgb(62, 220, 241);
+  background-color: rgb(238, 7, 215);
 }
 
 .option {
   font-size: 20px;
   color: crimson;
   font-weight: 400;
-}
+} */

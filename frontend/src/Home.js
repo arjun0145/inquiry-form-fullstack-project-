@@ -12,7 +12,7 @@ function Home() {
         <Navbar></Navbar>
         <Routes>
           <Route path="/App" element={<App></App>}></Route>
-          <Route path="/admin" element={<Admin></Admin>}></Route>
+            <Route path="/admin" element={<Admin></Admin>}></Route>
           <Route path="/About" element={<About></About>}></Route>
         </Routes>
       </Router>
@@ -20,4 +20,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home ;

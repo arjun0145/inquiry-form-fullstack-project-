@@ -29,9 +29,9 @@ function App() {
             <h3 id="cotation" className="text-center">" Logic and Logical Person Will change the world "</h3>
             <h5 id="author" className="mx-5 text-center">...Arjun Kumar Chaturvedi</h5>
           </Alert>
-          <Container className="border bg-info">
+          <Container className="border">
             
-            <h3 className="text-center mt-1 bg-info">Inquiry Form </h3>
+            <h3 className="text-center mt-1 ">Inquiry Form </h3>
             <br />
             
             <Formx className='mt-5'></Formx>
